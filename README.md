@@ -36,7 +36,7 @@
 		
 		*拓展*:可以自定义其他的classLoader，实现JobClassLoder接口即可
 		+ 1.基于package路径的jobClassLoader
-		+ 2.基于非本地文件的jobClassLoader
+		+ 2.基于非本地文件的jobClassLoader(实现远程文件执行，Hotswap)
 		
 	* ####JobClassLoaderRule
 		

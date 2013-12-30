@@ -35,12 +35,16 @@ public class JobManager implements Runnable {
         } catch (ClassNotFoundException e) {
             System.out.println("no such class:"+mainClassName);
         } catch (InstantiationException e) {
+            //TODO
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } catch (IllegalAccessException e) {
+            //TODO
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } catch (NoSuchMethodException e) {
+            //TODO
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } catch (InvocationTargetException e) {
+            //TODO
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
         System.out.println("quit");
